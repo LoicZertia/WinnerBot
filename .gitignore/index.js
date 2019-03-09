@@ -5,7 +5,7 @@ var PREFIX = "/";
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-    bot.user.setGame("Actuellement au développement");
+    bot.user.setGame("En dev");
     console.log("On");
 });
 
